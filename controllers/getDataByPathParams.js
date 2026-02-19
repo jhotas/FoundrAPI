@@ -1,3 +1,5 @@
+import { startups } from "../data/data.js"
+
 export const  getDataByPathParams = (req, res) => {
     const { field, term } = req.params
     const allowedFields = ['country', 'continent', 'industry']
