@@ -6,4 +6,3 @@ export const apiRouter = express.Router()
 
 apiRouter.get('/', getAllData)
 
-apiRouter.get('/:field/:term', getDataByPathParams)
